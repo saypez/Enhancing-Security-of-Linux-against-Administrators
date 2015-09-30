@@ -1,0 +1,4 @@
+rpm -i --install -e --unistall --rease -u --upgrade
+yum install update upgrade remove erase 
+dpkg -i --install -r --remove -p --pure --configure
+apt-get update upgrade dselect-upgrade install remove

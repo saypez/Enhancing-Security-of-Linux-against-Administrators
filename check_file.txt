@@ -1,0 +1,13 @@
+yum install libreoffice;admin2;admin1;Yes
+sh /home/admin1/script.txt;admin1;admin3;Denied
+mv /home/hosts /etc/host;admin3;admin1;Problem
+python /home/admin2/task2.py;admin2;admin3;Yes
+tar xvzf /tmp/user10.tar.gz;admin1;admin3;Yes
+vim list2;admin1;admin2;Yes
+fdisk /dev/sda1;admin1;shahram;Yes
+vim /home/shahram/list1;shahram;admin1;Yes
+vim /home/shahram/list2;admin1;admin2;Denied
+fdisk /dev/sda;admin2;shahram;Yes
+vim /etc/hosts;admin1;admin2;Yes
+ls -l;admin1;;Not Yet
+asdasda;admin2;admin2;Denied
