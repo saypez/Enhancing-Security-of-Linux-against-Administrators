@@ -1,2 +1,6 @@
 # Enhancing-Security-of-Linux-against-Administrators
 This application limit administrators for accessing to root privileges for managing Linux OS
+
+organizations about the security of systems. Since operating systems are controlled and managed by fully trusted administrators, they can negligently or intentionally break the information security and privacy of users and threaten the system integrity. In this thesis, we propose some solutions for enhancing the security of Linux OS by restricting administrators‟ access to superuser‟s privileges while they can still manage the system.
+We designed and implemented an interface for administrators in Linux OS called Linux Admins‟ User Interface (LAUI) for managing the system in secure ways. LAUI along with other security programs in Linux like sudo protect confidentiality and integrity of users‟ data and provide a more secure system against administrators‟ mismanagement. In our model, we limit administrators to perform managing tasks in secure manners and also make administrators accountable for their acts.
+In this thesis we present some scenarios for compromising users‟ data and breaking system integrity by system administrators in Linux OS. Then we evaluate how our solutions and methods can secure the system against these administrators‟ mismanagement.
